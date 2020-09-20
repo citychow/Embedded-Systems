@@ -34,7 +34,7 @@ For example, if your system detects a change in either PF4 or PF0 input,
 record PortF bits 4,1,0. If your system causes a change in PF1, record PortF bits 4,1,0. 
 
 If both PF4 and PF0 switch are not pressed, the PF1 output should be low.  
-If either PF4 or PF0 switches is pressed, the output toggles at 10 Hz (±10%). 
+If either PF4 or PF0 switches is pressed, the output toggles at 10 Hz (Â±10%). 
 Information collected in the Data array matches the I/O on PortF.
 50 data points are collected only on a change in input or a change in output.
 This means no adjacent elements in the array should be equal.
